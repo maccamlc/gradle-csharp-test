@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Protobuf Include="proto\*.proto" GrpcServices="Both">
+    <Protobuf Include="..\proto\*.proto" ProtoRoot=".." GrpcServices="Both">
       <Generator>MSBuild:Compile</Generator>
     </Protobuf>
   </ItemGroup>
